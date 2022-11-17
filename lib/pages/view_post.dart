@@ -12,16 +12,11 @@ class ViewPostPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
+        child: ListView(
           children: [
             PictureWidget(post: post, backButton: true),
-            Expanded(
-              child: ListView(
-                children: const [
-                  CommentsWidget(),
-                ],
-              ),
-            )
+            const SizedBox(height: 24.0),
+            const Expanded(child: CommentsWidget())
           ],
         ),
       ),

@@ -118,27 +118,29 @@ class PictureWidget extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 20.0),
-                    IconButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => ViewPostPage(
-                              post: post,
+                    if (!backButton) ...[
+                      IconButton(
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => ViewPostPage(
+                                post: post,
+                              ),
                             ),
-                          ),
-                        );
-                      },
-                      iconSize: 30.0,
-                      icon: const Icon(Icons.chat),
-                    ),
-                    const Text(
-                      '350',
-                      style: TextStyle(
-                        fontSize: 14.0,
-                        fontWeight: FontWeight.w600,
+                          );
+                        },
+                        iconSize: 30.0,
+                        icon: const Icon(Icons.chat),
                       ),
-                    ),
+                      const Text(
+                        '350',
+                        style: TextStyle(
+                          fontSize: 14.0,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
                   ],
                 ),
                 IconButton(

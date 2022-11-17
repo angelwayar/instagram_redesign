@@ -7,7 +7,7 @@ class CommentsWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 600.0,
+      height: 450.0,
       width: double.infinity,
       decoration: BoxDecoration(
         color: Colors.white,
