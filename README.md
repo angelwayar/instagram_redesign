@@ -1,16 +1,6 @@
 # instagram_redesign
 
-A new Flutter project.
+diseño: https://dribbble.com/shots/6349659-Instagram-redesign-concept
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_20221117-193540](https://user-images.githubusercontent.com/36115243/202583093-70d7657d-7a67-42a4-936c-370e9ae5a494.jpg)
+![Screenshot_20221117-193556](https://user-images.githubusercontent.com/36115243/202583104-c9d6a1d0-244a-4853-a2bc-c932487a27ba.jpg)
